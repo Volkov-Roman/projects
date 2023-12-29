@@ -13,28 +13,3 @@ menu_main
 │ 	└── 0 – Logout
 ├── 2 – Register
 └── 0 – Exit
-
-## Database Structure
-
-### Table "user"
-
-| Field       | Type        | Description                                |
-|-------------|-------------|--------------------------------------------|
-| id          | INTEGER     | Primary Key                                |
-| name        | TEXT        | Unique username                            |
-| password    | TEXT        | Password hash                              |
-| created_at  | INTEGER     | User creation time (timestamp)             |
-| updated_at  | INTEGER     | Last user update time                      |
-
-### Table "note"
-
-| Field       | Type        | Description                                |
-|-------------|-------------|--------------------------------------------|
-| id          | INTEGER     | Primary Key                                |
-| title       | TEXT        | Note title                                 |
-| content     | TEXT        | Note content                               |
-| created_at  | INTEGER     | Note creation time (timestamp)             |
-| updated_at  | INTEGER     | Last note update time                      |
-| user_id     | INTEGER     | Foreign Key linking to the "user" table    |
-
-**Note:** A `UNIQUE (user_id, title)` constraint has been added to ensure the uniqueness of the combination of `user_id` and `title`.
