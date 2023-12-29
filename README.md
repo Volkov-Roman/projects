@@ -7,4 +7,4 @@ Hello! My name is Roman Volkov, and I am a student in ICT Engineering at LAB Uni
 - Usage of frameworks: Bootstrap, Skeleton
 - Application of the SASS preprocessor
 
-You can also find my CV by going to `index.html` in the "Web development" folder. For more detailed information, you can contact me at rvolkovpost@gmail.com or visit my [GitHub profile](https://github.com/Volkov-Roman).
+You can also find my CV by going to `index.html` in the "Web development" folder. For more detailed information, you can contact me at rvolkovpost@gmail.com or visit my [LinkedIn page](https://www.linkedin.com/in/volkov44/) or [GitHub profile](https://github.com/Volkov-Roman).
