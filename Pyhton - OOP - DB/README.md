@@ -1,6 +1,6 @@
 # Console Note-Taking Application in Python
 
-This console application in Python allows users to take notes in an object-oriented style. It features user authentication and registration, utilizing the built-in `sqlite3` library for storing notes and user data. Passwords are encrypted using the `hashlib` library, and notes are displayed using the Kirje library (see "Requirements"). The development was done using MS Visual Studio Code (VS Code) IDE.
+An application for note-taking with a console interface in Python, utilizing an object-oriented style. It includes an interface for user authentication and registration. SQLite3 is employed for storing notes and user data (built-in library sqlite3). Passwords are encrypted using the built-in hashlib library. The Kirje library is used for displaying notes (see "requirements"). The development was conducted using MS Visual Studio Code (VS Code) IDE.
 
 ## Menu Structure
 
