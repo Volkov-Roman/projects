@@ -19,5 +19,5 @@ The portfolio website serves as a hub for exploring my various web development p
 ## Quick Links
 
 - [View Projects](./Works.html)
-- [View CV](./CVs/CV English.pdf)     
-- [View CV](./CVs/CV suomi.pdf)     
+- [View CV in English](./CVs/CV%20English.pdf)
+- [View CV in Suomi](./CVs/CV%20suomi.pdf) 
