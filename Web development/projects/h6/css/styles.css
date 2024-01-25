@@ -1,0 +1,154 @@
+body {
+    font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #7f98c3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 85%;
+}
+
+#wrapper {
+    width: 700px;
+    margin: 0 auto 15px auto;
+    padding-bottom: 10px;
+    background-image: url(../images/page_bottom.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+#container {
+    box-sizing: border-box;
+    /* width: 700px; */
+    background: #FFFFFF;
+    background-image: url(../images/body_back.jpg);
+    background-repeat: repeat-y;
+    padding: 0 9px;
+    /* background-position: top right; */
+    margin: 0 auto;
+    /* border: 1px solid #000000; */
+    text-align: left;
+    position: relative;
+}
+
+#container .overhang {
+    position: absolute;
+    top: 0;
+    left: -65px;
+}
+
+#header {
+    background: #FFF;
+    padding: 40px 0 20px 150px;
+}
+
+a img{
+    border: none;
+}
+
+/* #header h1 {
+    margin: 0;
+    padding: 10px 0;
+} */
+
+#sidebar1 {
+    box-sizing: border-box;
+    float: right;
+    width: 226px;
+    padding: 15px 20px;
+    background-image: url(../images/corner_tl.gif);
+    background-repeat: no-repeat;
+}
+
+#mainContent {
+    float: left;
+    width: 415px;
+    margin: 0 ;
+    padding: 0 20px;
+}
+
+.pod {
+    padding: 10px 5px 0 15px;
+    border: solid 1px #628958;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#footer {
+    padding: 70px 0 30px 20px;
+    background: #fff;
+    background-image: url(../images/corner_br.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+}
+
+#footer p {
+    margin: 0;
+    padding: 10px 0 0 270px;
+    color: #757171; 
+}
+
+#footer .overhang {
+    background-image: url(../images/sm_flower.png);
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 100px;
+    top: 30px;
+    left: 640px;
+}
+
+#sidebar1 a {
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #628958;
+    /* text-decoration: none; */
+}
+
+a:hover, a:active, a:focus {
+    color: #ce5441;
+    /* text-decoration: underline; */
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #628958;
+    letter-spacing: 0.05em;
+}
+
+#mainContent h1 {
+    font-size: 200%;
+    text-align: right;
+}
+
+#mainContent h2 {
+    font-size: 150%;
+    text-align: right;
+}
+
+.fltrt {
+    /* this class can be used to float an element right in the page. The floated element must precede the element it should be next to on the page. */
+    float: right;
+    margin-left: 8px;
+}
+
+.fltlft {
+    /* this class can be used to float an element left in the page */
+    float: left;
+    margin-right: 8px;
+}
+
+.clearfloat {
+    /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
